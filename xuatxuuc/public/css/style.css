@@ -46,14 +46,14 @@ a{
     bottom: 0;
     height: 100%;
     padding: 0 !important;
-    height: auto;
 }
 .img-zoom{
     border: 1px solid #CCC;
+    height: auto;
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 100%
+    
 }
 .img-zoom:hover img{
     -ms-transform: scale(1.1);
@@ -62,7 +62,6 @@ a{
 .img-zoom img{
     object-fit: cover;
     width: 100%;
-    height: 100%;
     padding: 0 !important;
     background-size: cover;
     max-width: 100%;
